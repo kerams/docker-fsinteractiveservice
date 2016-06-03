@@ -3,7 +3,7 @@ FROM frolvlad/alpine-mono
 WORKDIR /root
 
 RUN apk add --no-cache openssl \
-    && wget https://github.com/ionide/FsInteractiveService/releases/download/0.1.2/fsinteractiveservice.zip \
+    && wget https://github.com/ionide/FsInteractiveService/releases/download/0.2.0/fsinteractiveservice.zip \
     && unzip fsinteractiveservice.zip \
     && rm fsinteractiveservice.zip
 
